@@ -1,13 +1,13 @@
 from nose.tools import *
-import Alice
+import NAME
 
 def setup():
 	print("SETUP!")
 
 
 def teardown():
-	print("DESTRUIR!")
+	print("TEAR DOWN!")
 
 
 def test_basic():
-	print("EXECUTANDO", end= '')
+	print("I RAN!", end= '')
